@@ -14,6 +14,7 @@
 		978A2A311E7021140063F9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978A2A2F1E7021140063F9CC /* LaunchScreen.storyboard */; };
 		978A2A3C1E7021150063F9CC /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978A2A3B1E7021150063F9CC /* tippyTests.swift */; };
 		978A2A471E7021150063F9CC /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978A2A461E7021150063F9CC /* tippyUITests.swift */; };
+		97D9CCF61E777519007DEA40 /* SettingsViewConrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D9CCF51E777519007DEA40 /* SettingsViewConrollerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		978A2A421E7021150063F9CC /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		978A2A461E7021150063F9CC /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		978A2A481E7021150063F9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D9CCF51E777519007DEA40 /* SettingsViewConrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewConrollerViewController.swift; path = ../SettingsViewConrollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		978A2A251E7021140063F9CC /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				97D9CCF51E777519007DEA40 /* SettingsViewConrollerViewController.swift */,
 				978A2A261E7021140063F9CC /* AppDelegate.swift */,
 				978A2A281E7021140063F9CC /* ViewController.swift */,
 				978A2A2A1E7021140063F9CC /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				978A2A291E7021140063F9CC /* ViewController.swift in Sources */,
+				97D9CCF61E777519007DEA40 /* SettingsViewConrollerViewController.swift in Sources */,
 				978A2A271E7021140063F9CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				978A2A4D1E7021150063F9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		978A2A4E1E7021150063F9CC /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				978A2A501E7021150063F9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		978A2A511E7021150063F9CC /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				978A2A531E7021150063F9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
