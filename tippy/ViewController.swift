@@ -43,7 +43,7 @@ class ViewController: UIViewController {
 
     @IBAction func onTap(_ sender: Any) {
         
-        view.endEditing(true)
+       // view.endEditing(true)
     }
     
 
