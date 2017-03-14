@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        
         
         let defaults = UserDefaults.standard
         let intValue = defaults.integer(forKey:  "tipDefault")
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
 
     @IBAction func calculateTip(_ sender: Any) {
         
-        let tipPercentages = [0.18 , 0.2 , 0.25]
+        let tipPercentages = [0.18 , 0.2 , 0.25 , 0]
         
         let bill = Double(billField.text!) ?? 0.0
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
