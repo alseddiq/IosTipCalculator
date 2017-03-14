@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
 
+    @IBOutlet var calcView: UIView!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.calcView.alpha = 0
         
         let defaults = UserDefaults.standard
         let intValue = defaults.integer(forKey:  "tipDefault")
@@ -44,6 +45,15 @@ class ViewController: UIViewController {
     @IBAction func onTap(_ sender: Any) {
         
        // view.endEditing(true)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animate(withDuration: 1) {
+             self.calcView.alpha = 1
+        }
+        
     }
     
 

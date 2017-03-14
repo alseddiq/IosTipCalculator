@@ -96,6 +96,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="billField" destination="udJ-oh-wTI" id="rsL-Pk-87R"/>
+                        <outlet property="calcView" destination="8bC-Xf-vdC" id="fgs-KS-UBV"/>
                         <outlet property="tipControl" destination="Y9H-TD-jKM" id="xvm-fV-3yh"/>
                         <outlet property="tipLabel" destination="sMc-hW-he4" id="ePW-yP-2hn"/>
                         <outlet property="totalLabel" destination="rre-ag-QeJ" id="uJI-U8-bQz"/>
